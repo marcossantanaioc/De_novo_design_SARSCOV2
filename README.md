@@ -1,12 +1,12 @@
-# Additional Information
+# Supplementary information
  Notebooks and files from the paper "De novo Design and Bioactivity Prediction of SARS-CoV-2 Main Protease Inhibitors using Recurrent Neural Network-based Transfer Learning"
 
 ## [data/](https://github.com/marcossantanaioc/De_novo_design_SARSCOV2/tree/master/data)
 
 **Generative models data**
-- [AAID_1706_misc_combined_processed.zip](https://github.com/marcossantanaioc/De_novo_design_SARSCOV2/blob/master/data/AID_1706_misc_combined_processed.zip): data used to train the generative model and classifier
+- [AID_1706_misc_combined_processed.zip](https://github.com/marcossantanaioc/De_novo_design_SARSCOV2/blob/master/data/AID_1706_misc_combined_processed.zip): data used to train the generative model and classifier
 
-- [ChEMBL_v1.zip] (https://github.com/marcossantanaioc/De_novo_design_SARSCOV2/blob/master/data/ChEMBL_v1.zip): ChEMBL data used to train the general chemical model
+- [ChEMBL_v1.zip](https://github.com/marcossantanaioc/De_novo_design_SARSCOV2/blob/master/data/ChEMBL_v1.zip): ChEMBL data used to train the general chemical model
 
 **Classifier data**
 - [external_validation_mpro_xchem.csv](https://github.com/marcossantanaioc/De_novo_design_SARSCOV2/blob/master/data/external_validation_mpro_xchem.csv): external validation set of fragments screened against SARS-CoV-2 Mpro
