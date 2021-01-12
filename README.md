@@ -29,5 +29,15 @@
 - [finetuned_model.pkl](https://github.com/marcossantanaioc/De_novo_design_SARSCOV2/blob/master/models/finetuned_model.pkl): Fine-tuned chemical model
 - [classifier.pkl](https://github.com/marcossantanaioc/De_novo_design_SARSCOV2/blob/master/models/classifier.pkl): Final fine-tuned classifier
 
+**Chemprop models**
+- [SARS.zip](https://github.com/marcossantanaioc/De_novo_design_SARSCOV2/blob/master/models/chemprop_models/SARS.zip): Chemprop model as available [at the original website](http://chemprop.csail.mit.edu/checkpoints)
+- [SARS_balanced.zip](https://github.com/marcossantanaioc/De_novo_design_SARSCOV2/blob/master/models/chemprop_models/SARS_balanced.zip): Balanced Chemprop available [at the original website](http://chemprop.csail.mit.edu/checkpoints)
+
+## [results/](https://github.com/marcossantanaioc/De_novo_design_SARSCOV2/tree/master/results)
+
+**Generative models data**
+- [crossvalidation_results.csv](https://github.com/marcossantanaioc/De_novo_design_SARSCOV2/blob/master/results/crossvalidation_results.csv): Cross-validation results for validation, test and external sets using the ULMFit method. 
+- [generated_70k_90.csv](https://github.com/marcossantanaioc/De_novo_design_SARSCOV2/blob/master/results/generated_70k_90.csv): Generated molecules using the fine-tuned chemical model (N = 70000).
+- [top20_druglike.smi](https://github.com/marcossantanaioc/De_novo_design_SARSCOV2/blob/master/results/top20_druglike.smi): Top-20 drug-like generated molecules.
 
 
